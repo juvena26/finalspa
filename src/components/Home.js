@@ -88,7 +88,7 @@ const Home = () => {
         </div>
       </div>
       <div className="linkto">
-        <Link to="/about"> More... </Link>
+        <Link to="/articles"> More... </Link>
       </div>
     </div>
   );
