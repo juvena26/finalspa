@@ -1,5 +1,5 @@
 import React from "react";
-import Tokyo from "../images/tokyo.jpeg";
+import Tokyo from "../images/tokyo1.jpeg";
 import Hiroshima from "../images/hiroshima.jpeg";
 import Fukuoka from "../images/fukuoka.jpeg";
 const About = () => {

@@ -26,7 +26,7 @@ const Home = () => {
           <a href="#tokyo">
             <img src={Kyoto} alt="tok" />
           </a>
-          <p>Tokyo </p>
+          <p>Kyoto </p>
         </div>
         <div className="article-img">
           <a href="#fukuoka">
