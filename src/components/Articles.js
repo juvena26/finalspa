@@ -1,7 +1,10 @@
 import React from "react";
 import Tokyo from "../images/tokyo1.jpeg";
 import Hiroshima from "../images/hiroshima.jpeg";
+import Kyoto from "../images/kyoto.jpeg";
 import Fukuoka from "../images/fukuoka.jpeg";
+import Osaka from "../images/osaka.jpeg";
+import Nagasaki from "../images/nagasaki.jpeg";
 const About = () => {
   return (
     <div className="page-content">
@@ -33,6 +36,33 @@ const About = () => {
           center and within relatively short train rides at its outskirts.
         </div>
 
+        <h2 className="place-name">Osaka</h2>
+        <img className="article-img" src={Osaka} alt="i" />
+        <div className="place-desc">
+          Osaka (大阪, Ōsaka) is Japan's second largest metropolitan area after
+          Tokyo. It has been the economic powerhouse of the Kansai Region for
+          many centuries. Osaka was formerly known as Naniwa. Before the Nara
+          Period, when the capital used to be moved with the reign of each new
+          emperor, Naniwa was once Japan's capital city, the first one ever
+          known. In the 16th century, Toyotomi Hideyoshi chose Osaka as the
+          location for his castle, and the city may have become Japan's
+          political capital if Tokugawa Ieyasu had not terminated the Toyotomi
+          lineage after Hideyoshi's death and established his government in
+          distant Edo (Tokyo).
+        </div>
+
+        <h2 className="place-name">Kyoto</h2>
+        <img className="article-img" src={Kyoto} alt="i" />
+        <div className="place-desc">
+          Kyoto (京都, Kyōto) served as Japan's capital and the emperor's
+          residence from 794 until 1868. It is one of the country's ten largest
+          cities with a population of 1.5 million people and a modern face. Over
+          the centuries, Kyoto was destroyed by many wars and fires, but due to
+          its exceptional historic value, the city was dropped from the list of
+          target cities for the atomic bomb and escaped destruction during World
+          War II. Countless temples, shrines and other historically priceless
+          structures survive in the city today.
+        </div>
         <h2 className="place-name">Hiroshima</h2>
         <img className="article-img" src={Hiroshima} alt="i" />
         <div className="place-desc">
@@ -61,6 +91,21 @@ const About = () => {
           city of Hakata and the former castle town of Fukuoka were merged into
           one city called Fukuoka. Hakata remains the name of one of Fukuoka's
           central districts and of the main railway station.
+        </div>
+
+        <h2 className="place-name">Nagasaki</h2>
+        <img className="article-img" src={Nagasaki} alt="i" />
+        <div className="place-desc">
+          Nagasaki (長崎) is an important port city on the island of Kyushu and
+          the capital of Nagasaki Prefecture. Its rich history and culture and
+          attractive location around a narrow inlet make Nagasaki one of Japan's
+          most interesting travel destinations. Thanks to its proximity to the
+          Asian mainland, the port city of Nagasaki has played a prominent role
+          in foreign trade relations for many centuries and was the most
+          important of only a very few ports open to restricted numbers of
+          foreign traders during Japan's period of isolation. In more recent
+          history, Nagasaki became the second city after Hiroshima to be
+          destroyed by an atomic bomb towards the end of World War II.
         </div>
       </div>
     </div>
